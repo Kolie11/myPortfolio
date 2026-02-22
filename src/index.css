@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+/* *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+body {
+    @apply bg-stone-200 text-white;
+    background-image: url(/src/assets/bg-black.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: difference;
+
+    background-attachment: scroll;
+    /* animation: myAnim 3s ease 0s 1 normal forwards; */
+
+  }
+
+  /* .logo-container span{
+ animation: scale-up-top-alternate-reverse 1s ease 0s infinite alternate-reverse none; 
+  }
+
+   @keyframes scale-up-top-alternate-reverse {0% { transform: scale(0.5); transform-origin: 50% 0%; } 100% { transform: scale(1); transform-origin: 50% 0%;} }
+
+
+  @keyframes myAnim {
+	0% {
+		background-position: right center;
+		background-size: 100%;
+	}
+
+	100% {
+		background-position: right center;
+		background-size: 150%;
+	}
+}
+ */
