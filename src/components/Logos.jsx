@@ -38,7 +38,7 @@ function Logos() {
           ease: "linear",
         }}
       >
-       
+
         {duplicatedLogos.map((logo, index) => (
           <motion.span
             key={index}
@@ -50,7 +50,7 @@ function Logos() {
         ))}
       </motion.div>
 
-      
+
     </div>
   );
 }

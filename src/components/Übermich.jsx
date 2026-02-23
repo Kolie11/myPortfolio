@@ -8,6 +8,7 @@ import tailwind from "../assets/tailwind.png";
 import html from "../assets/html.jpg";
 import css from "../assets/css.png";
 import seo from "../assets/seo.png";
+import SocialMedia from "./SocialMedia";
 
 export default function Übermich() {
   // This component provides an overview of the developer's background, skills, and approach to web development. It emphasizes the combination of design and functionality, with a focus on React and Tailwind CSS. The section also includes a call-to-action for downloading the resume and browsing the developer's work.
@@ -19,7 +20,7 @@ export default function Übermich() {
           alt="My own image"
           className="border-4  w-50 h-50 rounded-full object-cover"
         />
-        <h1 className="text-2xl font-bold  p-3 shadow-lg mt-4  border-r-2 border-sky-500  text-center">
+        <h1 className="text-2xl font-bold  p-3 shadow-lg mt-4  border-r-2 border-violet-400  text-center">
           Logik trifft auf Kreativität
         </h1>
       </div>
@@ -46,7 +47,7 @@ export default function Übermich() {
         <div className="flex justify-center gap-4 mt-6">
           <a
             href=""
-            className="text-md text-center bg-sky-600 hover:bg-sky-500  font-bold py-2 px-4 rounded-md transition duration-300 shadow-lg text-white"
+            className="text-md text-center bg-violet-950 hover:bg-violet-700  font-bold py-2 px-4 rounded-md transition duration-300 shadow-lg text-white"
           >
             Download resume
           </a>
@@ -56,7 +57,7 @@ export default function Übermich() {
         </div>
 
         <div className="mt-10 grid md:grid-cols-3 gap-6">
-          <div className="bg-sky-950 hover:bg-sky-900 p-4 rounded-md shadow-lg border-0 border-t-4 text-white">
+          <div className="bg-violet-950 hover:bg-violet-700 p-4 rounded-md shadow-lg border-0 border-t-4 text-white">
             <h2 className="text-xl md:text-2xl font-bold mb-2">UI/UX Design</h2>
             <p className="text-md md:text-lg">
               Ich gestalte intuitive und ästhetisch ansprechende
@@ -79,7 +80,7 @@ export default function Übermich() {
             </div>
           </div>
 
-          <div className="text-black bg-white hover:bg-sky-50 p-4 rounded-md shadow-lg border-0 border-b-4">
+          <div className="text-black bg-violet-200 hover:bg-violet-100 p-4 rounded-md shadow-lg border-0 border-b-4">
             <h2 className="text-xl md:text-2xl font-bold mb-2">
               Webentwicklung
             </h2>
@@ -117,7 +118,7 @@ export default function Übermich() {
             </p>
           </div>
 
-          <div className="text-white bg-sky-950 hover:bg-sky-900 p-4 rounded-md shadow-lg border-0 border-t-4">
+          <div className="text-white bg-violet-950 hover:bg-violet-700 p-4 rounded-md shadow-lg border-0 border-t-4">
             <h2 className="text-xl md:text-2xl font-bold mb-2">
               SEO-Optimierung
             </h2>
@@ -135,7 +136,9 @@ export default function Übermich() {
             </div>
           </div>
 
-          
+          <div className="flex justify-center items-center fixed left-10 top-30 ">
+            <SocialMedia />
+          </div>
         </div>
       </div>
     </section>

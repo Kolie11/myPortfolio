@@ -7,10 +7,10 @@ function SocialMedia() {
 
     return (
         <div >
-            <div className='flex gap-4 relative bg-white p-2 rounded-md shadow-md'>
-                <a className='hover:text-2xl hover:text-blue-500 hover:scale-110 transition-all duration-300' href="linkedin.com"><FaLinkedin /></a>
-                <a className='hover:text-2xl hover:text-blue-500 hover:scale-110 transition-all duration-300' href="github.com"><FaGithub /></a>
-                <a className='hover:text-2xl hover:text-blue-500 hover:scale-110 transition-all duration-300' href="twitter.com"><FaSquareXTwitter /></a>
+            <div className='flex gap-4 relative bg-transparent p-2 rounded-md shadow-md'>
+                <a className='hover:text-2xl hover:text-violet-500 hover:scale-110 transition-all duration-300' href="linkedin.com"><FaLinkedin /></a>
+                <a className='hover:text-2xl hover:text-violet-500 hover:scale-110 transition-all duration-300' href="github.com"><FaGithub /></a>
+                <a className='hover:text-2xl hover:text-violet-500 hover:scale-110 transition-all duration-300' href="twitter.com"><FaSquareXTwitter /></a>
             </div>
         </div>
     )
