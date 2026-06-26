@@ -3,7 +3,7 @@ import myImg from "../assets/mathCart.jpg";
 import figma from "../assets/figma.png";
 import psLogo from "../assets/ps.png";
 import js from "../assets/js.png";
-import react from "../assets/react.png";
+import react from "../assets/React.png";
 import tailwind from "../assets/tailwind.png";
 import html from "../assets/html.jpg";
 import css from "../assets/css.png";
