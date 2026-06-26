@@ -9,8 +9,11 @@ import { FaGitAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { RiGeminiFill } from "react-icons/ri";
 import { motion } from "framer-motion";
+import { useLanguage } from "../LanguageContext";
 
 function Logos() {
+  const { t } = useLanguage();
+  
   const logos = [
     { icon: <FaHtml5 />, name: "HTML" },
     { icon: <FaCss3 />, name: "CSS" },
@@ -26,9 +29,9 @@ function Logos() {
   const duplicatedLogos = [...logos, ...logos, ...logos];
 
   return (
-    <div className="py-10 px-10 rounded-md text-black overflow-hidden">
+    <div className="py-10 px-10 rounded-md text-slate-100 overflow-hidden mb-12">
 
-      <h1 className="text-center mb-8 text-2xl">Meine Werkzeuge</h1>
+      <h1 className="text-center mb-10 text-2xl font-bold">{t("Meine Werkzeuge", "My Tools")}</h1>
       <motion.div
         className="flex gap-8 items-center justify-center md:text-5xl text-lg"
         animate={{ x: [0, -1200] }}

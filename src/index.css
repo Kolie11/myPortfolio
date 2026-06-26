@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 /* Global styles placed inside Tailwind base layer so @apply resolves */
 @layer base {
@@ -11,7 +9,7 @@
   }
 
   body {
-    @apply bg-stone-200 text-black;
+    @apply bg-slate-50 text-slate-900 scroll-smooth;
   }
 
   /* If you want a background image, use a valid url and uncomment:
